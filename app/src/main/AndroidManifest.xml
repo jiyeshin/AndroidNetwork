@@ -3,6 +3,7 @@
     package="com.example.a503_12.androidnetwork">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -26,6 +27,20 @@
             </intent-filter>
         </activity>
         <activity android:name=".CSVUse1019">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GradleUse1022">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".JSONBook1022">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
