@@ -1,1 +1,1 @@
-include ':app', ':broadcastmoduleb1025', ':intentservice1025', ':androidcontents1026'
+include ':app', ':broadcastmoduleb1025', ':intentservice1025', ':androidcontents1026', ':xmlparsing', ':jsonparsing', ':dataparsing'
